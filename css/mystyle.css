@@ -1,0 +1,259 @@
+body {
+    overflow-x: hidden;
+}
+
+.head {
+    height: 100vh;
+    width: 100vw;
+    background: url(../imgs/head-BG.gif);
+    clip-path: polygon(50% 0%, 99% 0, 100% 85%, 52% 95%, 0% 85%, 0 0);
+}
+
+.head button {
+    position: relative;
+    top: 175px;
+    left: 600px;
+    background: transparent;
+    color: white;
+    padding: 8px;
+    border: solid 0.3px;
+}
+
+.head button:hover {
+    background-color: #fdd365;
+    color: #262557;
+}
+
+.head-info {
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+}
+
+.head-info .logo {
+    color: #fdd365;
+    display: inline-block;
+    padding: 10px;
+}
+
+.head-info .info {
+    text-decoration: none;
+    color: #fdd365;
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.info a {
+    color: #fdd365;
+    padding: 20px;
+    font-size: 110%;
+    font-family: arial;
+}
+
+.info a:hover {
+    color: #fdd365;
+    text-decoration: underline;
+}
+
+#myname {
+    color: #fdd365;
+}
+
+#highlightWords {
+    color: #fdd365;
+}
+
+.head h2 {
+    color: white;
+    font-size: 250%;
+    position: relative;
+    top: 23%;
+    font-family: 'Pacifico', cursive;
+    left: 33%;
+}
+
+.head h3 {
+    position: relative;
+    top: 25%;
+    color: white;
+    font-size: 120%;
+    left: 30%;
+}
+
+
+/* Body Section Start */
+
+
+/* About me section start */
+
+.aboutme {
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+.aboutme .aboutmetxt h3 {
+    letter-spacing: 5px;
+}
+
+.aboutme .aboutmetxt p {
+    color: gray;
+    text-align: center;
+    margin: 0 70px 0 70px;
+}
+
+.Services {
+    margin-top: 60px;
+}
+
+.webserv {
+    width: 100%;
+    height: 370px;
+    background: #4d4646;
+    background-size: contain;
+    clear: both;
+}
+
+.webimg {
+    display: inline;
+}
+
+.webimg {
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.webtxt {
+    float: right;
+    width: 60%;
+    display: inline;
+}
+
+.webtxt p {
+    color: #fdd365;
+    text-align: justify;
+}
+
+.webtxt h3 {
+    color: #fdd365;
+    padding: 15px;
+}
+
+.mobtxt {
+    float: right;
+    width: 60%;
+    display: inline;
+}
+
+.mobtxt p {
+    color: #fdd365;
+    text-align: justify;
+}
+
+.mobtxt h3 {
+    color: #fdd365;
+    padding: 15px;
+}
+
+.mobserv {
+    width: 100%;
+    height: 370px;
+    background: #4d4646;
+    background-size: contain;
+    clear: both;
+}
+
+.mobimg {
+    display: inline;
+}
+
+.mobimg {
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.graphserv {
+    width: 100%;
+    height: 370px;
+    clear: both;
+}
+
+.graphimg {
+    display: inline;
+}
+
+.graphimg {
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.graphtxt {
+    float: left;
+    width: 60%;
+    display: inline;
+}
+
+.graphtxt p {
+    color: #4d4646;
+    text-align: justify;
+}
+
+.graphtxt h3 {
+    color: #4d4646;
+    padding: 15px;
+}
+
+.contact {
+    margin-top: 20px;
+    width: 100%;
+    height: 370px;
+    background-color: #fdd365;
+}
+
+.contact .contimg {
+    position: relative;
+    bottom: 60px;
+    padding: 30px;
+    display: inline-block;
+}
+
+.contact .contform {
+    width: 560px;
+    position: relative;
+    top: 20px;
+    left: 200px;
+    display: inline-block;
+}
+
+input[type=button] {
+    background-color: #4d4646;
+    color: #fdd365;
+    padding: 6px;
+    font-size: 20px;
+    border: solid 0px;
+}
+
+input[type=button]:hover {
+    color: #4d4646;
+    background-color: #fdd365;
+    border: solid 1px #4d4646;
+}
+
+.foot {
+    position: relative;
+    top: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: #fdd365;
+}
+
+.foot pre {
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
